@@ -1,0 +1,1 @@
+[[[],[],[],["U_O_ParadeUniform_01_CSAT_decorated_F",[["ACE_EarPlugs",1],["ACE_quikclot",2],["SmokeShell",1,1],["HandGrenade",1,1]]],["rhs_vest_commander",[]],[],"H_ParadeDressCap_01_CSAT_F","G_Aviator",[],["ItemMap","","ItemRadio","ItemCompass","ItemWatch",""]],[]]
