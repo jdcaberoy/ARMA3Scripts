@@ -1,0 +1,1 @@
+[_this, ["item1", "item2", "itemN"]] call ace_arsenal_fnc_addVirtualItems
