@@ -1,0 +1,1 @@
+[_box, ["MyItem1", "MyItem2", "MyItemN"]] call ace_arsenal_fnc_initBox
