@@ -1,0 +1,1 @@
+[_this, ["rhs_weap_rpg7","rhs_rpg7_TBG7V_mag","rhs_rpg7_type69_airburst_mag","rhs_rpg7_OG7V_mag","rhs_rpg7_PG7VR_mag","rhs_rpg7_PG7VS_mag","rhs_rpg7_PG7VL_mag","rhs_rpg7_PG7V_mag","RPG7_F","rhs_rpg7_PG7VM_mag"]] call ace_arsenal_fnc_addVirtualItems
