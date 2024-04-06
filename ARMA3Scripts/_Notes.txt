@@ -1,0 +1,18 @@
+To add the following?
+- micro dagr
+- explosives (added)
+- spotting scope
+- Kestrel
+
+to retain disposable items in consumable arsenal?
+
+clarification on fuel refill. What amount to refill?
+
+on ammo supply box (both small and  large), who sets amount of mags/ drums.
+
+to add general medical supplies? or potentially add mixed supplies?
+
+for consideration in side ops
+- no combat in humanitarian missions
+- use base-allowcarryingitems.sqf with food sacks (in game object, carrying not allowed)when delivering food for immersion_cigs_cigar0
+

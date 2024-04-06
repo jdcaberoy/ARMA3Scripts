@@ -1,0 +1,40 @@
+TODOs:
+DONE - finished
+ON-GOING - working on
+TBF - to be followed
+SCRAP - cancelled
+
++major ops (all required)
+    +assault on militia base
+        +SQF = TBF
+        +OPORD + ON-GOING
+        +lines/script = TBF
+
++side missions
+    +side mission patrol (required)
+        +SQF = ON-GOING
+        +OPORD = ON-GOING
+        +lines/script = ON-GOING
+    +side mission humanitarian: food 
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/script - TBF
+    +side mission humanitarian: repairs
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
+    +side mission hunt militia
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
+    +side mission evacuation
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts =TBF
+
++Quality of Life
+    +discord
+        +add channel
+        +add mission so far
+    point shop
+        +for review
