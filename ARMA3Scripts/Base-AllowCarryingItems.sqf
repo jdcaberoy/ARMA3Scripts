@@ -1,0 +1,1 @@
+[_this, true, [0, 1, 1], 10] call ace_dragging_fnc_setCarryable;
