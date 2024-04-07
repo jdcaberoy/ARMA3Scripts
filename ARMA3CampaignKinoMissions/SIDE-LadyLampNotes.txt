@@ -1,0 +1,17 @@
+#for rugged dual screen, give hint
+_this addAction ["Inspect Screen", { 
+    hint "ERROR: EQUIPMENT MALFUNCTION, CONTACT THE MANUFACTURER FOR SUPPORT\nERROR: NO POWER SUPPLY"; 
+    sleep 15; 
+    hint ""; 
+}, nil, 1.5, true, true, "", "true"];
+
+#for portable generator, hint as fuel source
+_this addAction ["Inspect Generator", { 
+    hint "Looks like the fuel cap is open..."; 
+    sleep 5; 
+    hint ""; 
+}, nil, .5, true, true, "", "true"];
+
+#for portable generator, set as fuel source, set fuel gauge to zero
+[_this, 20] call ace_refuel_fnc_makeSource;
+[_this, 0] call ace_refuel_fnc_setFuel
