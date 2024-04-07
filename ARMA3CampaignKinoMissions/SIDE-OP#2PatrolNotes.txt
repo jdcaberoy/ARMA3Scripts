@@ -1,0 +1,24 @@
+#for cellphone left behind in checkpoint, give hint on where
+_this addAction ["Check Text Messages", { 
+    hint "armed guys went past. double time"; 
+    sleep 8; 
+    hint ""; 
+}, nil, .5, true, true, "", "true"];
+
+#for sus individuals in Dorida
+Action: "Check Body"
+Intel Title: "IWI Receipt"
+Intel Content: "barely reads: Two (3) crate units"
+
+#for PC, set as carryable
+[_this, true, [0, 1, 1], 10] call ace_dragging_fnc_setCarryable;
+
+#for sus individuals in Dorida
+Action: "Check Body"
+Intel Title: "AEK"
+Intel Content: "barely reads: Three (3) crate units"
+
+#for enemy base in Chalkeia
+Action: "Inspect Laptop"
+Intel Title: "Propaganda E-mail"
+Intel Content: "THE GOVERNMENT IS CORRUPT. JOIN US AT ??????"
