@@ -18,6 +18,30 @@ _this addAction ["Speak", {
 }, nil, .5, true, true, "", "true"];
 
 _this addAction ["Speak", { 
+    hint "Sorry, no idea"; 
+    sleep 3; 
+    hint ""; 
+}, nil, .5, true, true, "", "true"];
+
+_this addAction ["Speak", { 
+    hint "I just sell stuff here."; 
+    sleep 3; 
+    hint ""; 
+}, nil, .5, true, true, "", "true"];
+
+_this addAction ["Speak", { 
+    hint "I am also missing cargo. Still finding someone who can help."; 
+    sleep 3; 
+    hint ""; 
+}, nil, .5, true, true, "", "true"];
+
+_this addAction ["Speak", { 
+    hint "Can't help ya there buddy"; 
+    sleep 3; 
+    hint ""; 
+}, nil, .5, true, true, "", "true"];
+
+_this addAction ["Speak", { 
     hint "I think the harbor master may have an idea.\nHe's in town getting gas."; 
     sleep 10; 
     hint ""; 
@@ -46,3 +70,9 @@ _this addAction ["Inspect Generator", {
 #for portable generator, set as fuel source, set fuel gauge to zero
 [_this, 20] call ace_refuel_fnc_makeSource;
 [_this, 0] call ace_refuel_fnc_setFuel
+
+lighthouse keeper suffered a hear attack = can be medavaced to a nearby hospital (1 manpower)
+lighthouse has error: equipment = can be called to HQ to request for specialist  (5influence)
+lighthouse generator has error: fuel = can be refueled (5 influence)
+lighthouse has crashed ships with unconscious individuals = (can be medavaced to a nearby hospital in Pyrghos)  (1manpower)
+Net+ =  3 manpower, 10 influence, neutral civilian standing
