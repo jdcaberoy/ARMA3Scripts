@@ -1,3 +1,34 @@
+#for low civilian standing, hint for speaking
+_this addAction ["Speak", { 
+    hint "*ignored"; 
+    sleep 3; 
+    hint ""; 
+}, nil, .5, true, true, "", "true"];
+
+_this addAction ["Speak", { 
+    hint "No idea"; 
+    sleep 3; 
+    hint ""; 
+}, nil, .5, true, true, "", "true"];
+
+_this addAction ["Speak", { 
+    hint "Go fuck yourself"; 
+    sleep 3; 
+    hint ""; 
+}, nil, .5, true, true, "", "true"];
+
+_this addAction ["Speak", { 
+    hint "I think the harbor master may have an idea.\nHe's in town getting gas."; 
+    sleep 10; 
+    hint ""; 
+}, nil, .5, true, true, "", "true"];
+
+_this addAction ["Speak", { 
+    hint "I MIGHT remember something...\nfor 20L of Gas"; 
+    sleep 10; 
+    hint ""; 
+}, nil, .5, true, true, "", "true"];
+
 #for rugged dual screen, give hint
 _this addAction ["Inspect Screen", { 
     hint "ERROR: EQUIPMENT MALFUNCTION, CONTACT THE MANUFACTURER FOR SUPPORT\nERROR: NO POWER SUPPLY"; 
