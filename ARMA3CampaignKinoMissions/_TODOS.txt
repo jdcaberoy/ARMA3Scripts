@@ -3,39 +3,56 @@ DONE - finished
 ON-GOING - working on
 TBF - to be followed
 SCRAP - cancelled
+S-1-01 = [M]ajor Op/ [S]ide Op/ [O]ptional Op - Act - misson code
 
 +major ops (all required)
-    +assault on militia base
+    +M-01-01: Boots of Hermes
+    +M-01-02: assault on militia base (Chopping Block)
         +SQF = TBF
         +OPORD = DONE
         +lines/script = TBF
-    +enemy attacks two towns
+    +M-01-03: enemy attacks two towns (Double Dragons)
         +SQF = TBF
         +OPORD = TBF
         +lines/script = TBF
 
-+side missions
-    +side mission patrol (required)
++side missions (required side missions)
+    +S-01-01 Patrol (Among Us)
         +SQF = SCRAP, will placed on the spot
         +OPORD = DONE
         +lines/script = ON-GOING
-    +checkpoint (required)
+    +S-01-02 Retake captured towns (Captain Boomerang)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/script = TBF
+    +S-01-03 Find stolen supplies (Camptain Boomerang)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/script = TBF
+    +S-02-01 Checkpoint (required)
         +SQF = TBF
         +OPORD = TBF
         +lines/script = ON-GOING
-    +side mission humanitarian: food 
+
++optional missions (optional side missions)
+    +O-01-01: Humanitarian Food Aid (Food for All)
         +SQF = SCRAP, will be placed on the spot
-        +OPORD = DONe
-        +lines/script - SCRAP, not needed
-    +side mission humanitarian: repairs
-        +SQF = DONE
         +OPORD = DONE
-        +lines/scripts = DONE
-    +side mission hunt militia
+        +lines/script - SCRAP, not needed
+    +O-01-02: Lighthouse repair (Anchors Away)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/script - TBF
+    +O-01-03: Hunt Militia
         +SQF = TBF
         +OPORD = TBF
         +lines/scripts = TBF
-    +side mission evacuation
+    +O-02-01: Humanitarian Equipment
+        +SQF = DONE
+        +OPORD = DONE
+        +lines/scripts = DONE
+    
+    +O-02-02: evacuation
         +SQF = TBF
         +OPORD = TBF
         +lines/scripts =TBF
