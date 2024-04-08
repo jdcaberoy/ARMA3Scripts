@@ -25,3 +25,12 @@ _this addAction ["Remove Engineer", {
     sleep 3; 
     hint ""; 
 }, nil, .5, true, true, "", "true"];
+
+_this addAction ["GET DOWN!", { 
+    _this setUnitPos "DOWN";
+}, nil, .5, true, true, "", "true"];
+
+_this addAction ["Surrender", { 
+
+    _this setCaptive true;
+}, nil, .5, true, true, "", "true"];
