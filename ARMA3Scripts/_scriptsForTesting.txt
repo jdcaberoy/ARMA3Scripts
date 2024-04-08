@@ -1,0 +1,27 @@
+_this addAction ["Assign Medic", { 
+    hint "Now a medic!"; 
+    player setUnitTrait ["Medic", true];
+    sleep 3; 
+    hint ""; 
+}, nil, .5, true, true, "", "true"];
+
+_this addAction ["Remove Medic", { 
+    hint "removed Medic"; 
+    player setUnitTrait ["Medic", false];
+    sleep 3; 
+    hint ""; 
+}, nil, .5, true, true, "", "true"];
+
+_this addAction ["Assign Engineer", { 
+    hint "Now a medic"; 
+    player setUnitTrait ["Engineer", true];
+    sleep 3; 
+    hint ""; 
+}, nil, .5, true, true, "", "true"];
+
+_this addAction ["Remove Engineer", { 
+    hint "Now a medic"; 
+    player setUnitTrait ["Engineer", false];
+    sleep 3; 
+    hint ""; 
+}, nil, .5, true, true, "", "true"];
