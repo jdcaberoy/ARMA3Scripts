@@ -7,22 +7,30 @@ SCRAP - cancelled
 +major ops (all required)
     +assault on militia base
         +SQF = TBF
-        +OPORD + ON-GOING
+        +OPORD = DONE
+        +lines/script = TBF
+    +enemy attacks two towns
+        +SQF = TBF
+        +OPORD = TBF
         +lines/script = TBF
 
 +side missions
     +side mission patrol (required)
-        +SQF = ON-GOING
-        +OPORD = ON-GOING
+        +SQF = SCRAP, will placed on the spot
+        +OPORD = DONE
+        +lines/script = ON-GOING
+    +checkpoint (required)
+        +SQF = TBF
+        +OPORD = TBF
         +lines/script = ON-GOING
     +side mission humanitarian: food 
-        +SQF = TBF
-        +OPORD = TBF
-        +lines/script - TBF
+        +SQF = SCRAP, will be placed on the spot
+        +OPORD = DONe
+        +lines/script - SCRAP, not needed
     +side mission humanitarian: repairs
-        +SQF = TBF
-        +OPORD = TBF
-        +lines/scripts = TBF
+        +SQF = DONE
+        +OPORD = DONE
+        +lines/scripts = DONE
     +side mission hunt militia
         +SQF = TBF
         +OPORD = TBF
@@ -34,7 +42,7 @@ SCRAP - cancelled
 
 +Quality of Life
     +discord
-        +add channel
-        +add mission so far
+        +add channel = DONE
+        +add mission so far = DONE
     point shop
         +for review
