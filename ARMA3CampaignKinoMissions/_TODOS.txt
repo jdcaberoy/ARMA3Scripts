@@ -29,10 +29,15 @@ S-1-01 = [M]ajor Op/ [S]ide Op/ [O]ptional Op - Act - misson code
         +SQF = TBF
         +OPORD = TBF
         +lines/script = TBF
-    +S-02-01 Checkpoint (required)
+    +S-02-01 Checkpoint (Gate Guardians)
         +SQF = TBF
         +OPORD = TBF
         +lines/script = ON-GOING
+    +S-02-01 Checkpoint (Gate Guardians)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/script = ON-GOING
+
 
 +optional missions (optional side missions)
     +O-01-01: Humanitarian Food Aid (Food for All)
