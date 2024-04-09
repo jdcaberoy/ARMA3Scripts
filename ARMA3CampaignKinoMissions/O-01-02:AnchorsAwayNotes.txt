@@ -1,3 +1,15 @@
+:apmlogo2: OPORD
+The recent attack on out convoy  gave us permission to patrol the concerned area and investigate. The checkpoint near Dorida may be a good start. However, the local government has ordered no armed vehicles
+to go in or near the town to prevent panic.
+HQ has advised discretion in handling this incident.
+
+Time: Day
+
+:apmlogo2: Primary Objective:
+Investigate the source of the attack
+
+Min Suggested Players: 4 
+
 #for low civilian standing, hint for speaking
 _this addAction ["Speak", { 
     hint "*ignored"; 

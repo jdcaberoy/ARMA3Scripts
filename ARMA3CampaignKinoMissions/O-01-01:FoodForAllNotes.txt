@@ -1,2 +1,15 @@
+:apmlogo2: OPORD
+Local Altisians are in need of food and water. HQ has provided humanitarian aid and we are to distribute these to those needed. We are a Private Military Contractor and normally this would be an LGU problem. However, ORION private investors have requested our assistance for this task.
+
+Time: Day
+
+:apmlogo2: Primary Objective:
+Deliver the Food and Water to Panagia
+
+Min Suggested Players: 2
+
+*this mission may be repeatable when additional aid arrives 
+
+
 #for food sacks, allow object to be carryable
 [_this, true, [0, 1, 1], 10] call ace_dragging_fnc_setCarryable;
