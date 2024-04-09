@@ -7,7 +7,10 @@ S-1-01 = [M]ajor Op/ [S]ide Op/ [O]ptional Op - Act - misson code
 
 +major ops (all required)
     +M-01-01: Boots of Hermes
-    +M-01-02: assault on militia base (Chopping Block)
+        +SQF = DONE
+        +OPORD = DONE
+        +lines/script = DONE
+    +M-01-02: assault on militia base (Dawn of the Herald)
         +SQF = TBF
         +OPORD = DONE
         +lines/script = TBF
@@ -21,11 +24,11 @@ S-1-01 = [M]ajor Op/ [S]ide Op/ [O]ptional Op - Act - misson code
         +SQF = SCRAP, will placed on the spot
         +OPORD = DONE
         +lines/script = ON-GOING
-    +S-01-02 Retake captured towns (Captain Boomerang)
+    +S-01-02 Retake captured towns (Cyclone Boomerang)
         +SQF = TBF
         +OPORD = TBF
         +lines/script = TBF
-    +S-01-03 Find stolen supplies (Camptain Boomerang)
+    +S-01-03 Find stolen supplies (Arise Heart)
         +SQF = TBF
         +OPORD = TBF
         +lines/script = TBF
@@ -49,7 +52,6 @@ S-1-01 = [M]ajor Op/ [S]ide Op/ [O]ptional Op - Act - misson code
         +OPORD = TBF
         +lines/script - TBF
     +O-01-03: Hunt Militia (Call of the Wild)
-        +lines/script - TBF
         +SQF = TBF
         +OPORD = TBF
         +lines/scripts = TBF
@@ -109,7 +111,10 @@ S-1-01 = [M]ajor Op/ [S]ide Op/ [O]ptional Op - Act - misson code
         +SQF = TBF
         +OPORD = TBF
         +lines/scripts = TBF
-
+    +O-02-15: Assault/ Support/ Repair (Monkey Wrench)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
 
 +Quality of Life
     +discord
