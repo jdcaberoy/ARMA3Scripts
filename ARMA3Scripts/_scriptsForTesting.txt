@@ -34,3 +34,28 @@ _this addAction ["Surrender", {
 
     _this setCaptive true;
 }, nil, .5, true, true, "", "true"];
+
+
+_this addAction ["Retrieve BlackBox", {
+    [falcon] call BIS_fnc_getUAVCoordinates;
+}, nil, 1.5, true, true, "", "true"];
+
+
+-------
+// BIS_fnc_getUAVCoordinates.sqf
+params ["_uav"];
+
+// Function to get the 8-digit GPS coordinates of the UAV
+fnc_getUAVCoordinates = {
+    params ["_uavObj"];
+    private _uavPos = getPos _uavObj;
+    private _x = floor (_uavPos select 0);
+    private _y = floor (_uavPos select 1);
+    format ["%1%2", _x, _y];
+};
+
+// Get the coordinates and display the hint
+private _coords = [_uav] call fnc_getUAVCoordinates;
+hint format ["UAV Location: %1", _coords];
+sleep 5;
+hint "";

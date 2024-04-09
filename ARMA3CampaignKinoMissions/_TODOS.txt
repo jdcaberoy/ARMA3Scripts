@@ -43,19 +43,68 @@ S-1-01 = [M]ajor Op/ [S]ide Op/ [O]ptional Op - Act - misson code
         +SQF = TBF
         +OPORD = TBF
         +lines/script - TBF
-    +O-01-03: Hunt Militia
+    +O-01-03: Hunt Militia (Call of the Wild)
+        +lines/script - TBF
         +SQF = TBF
         +OPORD = TBF
         +lines/scripts = TBF
-    +O-02-01: Humanitarian Equipment
-        +SQF = DONE
-        +OPORD = DONE
-        +lines/scripts = DONE
-    
-    +O-02-02: evacuation
+    +O-02-01: Humanitarian Equipment/ Defense (Let There Be Light)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
+    +O-02-01: Humanitarian Medical (Healing Hands)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
+    +O-02-03: evacuation (Wings of Icarus)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
+    +O-02-04: Ambush/ Assault (Trickster's Cloak)
         +SQF = TBF
         +OPORD = TBF
         +lines/scripts =TBF
+    +O-02-05: Assault/ Warmonger (In Wolf's Clothing)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
+    +O-02-06: Assault/ Support/ Warmonger (Slipstream)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
+    +O-02-07: Search and Rescue (Afterimage)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
+    +O-02-08: Assault/ Warmonger (Runick Fountain)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
+    +O-02-09: Trap master/ Warmonger (Mirror Force)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
+    +O-02-10: Anti-Air deployment (Faraday Cage)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
+    +O-02-11: De-mining operation (Exploding Kittens)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
+    +O-02-12: airfield assault/ HVT capture/ destruction / Heli Req (Bungee Gum)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
+    +O-02-13: VIP Extraction (Hanging Bridge)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
+    +O-02-14: Assault/ Support/ Medical (Whirling Axes)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/scripts = TBF
+
 
 +Quality of Life
     +discord
