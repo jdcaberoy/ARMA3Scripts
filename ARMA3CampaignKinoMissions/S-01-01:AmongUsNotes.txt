@@ -26,4 +26,4 @@ Intel Content: "THE GOVERNMENT IS CORRUPT. JOIN US AT ??????"
 Extracted VIP = 10 influence
 Contact with enemies = -civilian standing
 Obtained Intel from enemy base = 10 intel
-Net+ = 10 influence, 10 intel
+Net+ = 10 influence, 10 intels
