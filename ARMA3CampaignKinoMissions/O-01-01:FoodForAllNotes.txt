@@ -1,0 +1,2 @@
+#for food sacks, allow object to be carryable
+[_this, true, [0, 1, 1], 10] call ace_dragging_fnc_setCarryable;
