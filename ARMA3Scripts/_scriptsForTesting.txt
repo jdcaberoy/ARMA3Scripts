@@ -39,6 +39,61 @@ _this addAction ["Surrender", {
 _this addAction ["Retrieve BlackBox", {
     [falcon] call BIS_fnc_getUAVCoordinates;
 }, nil, 1.5, true, true, "", "true"];
+-------
+this addAction [
+"Assign Medic",
+ {
+   player setUnitTrait ["Medic",true];
+   hintsilent "you are now a medic";
+   sleep 5;
+   hintSilent "";
+ },[], 1.5, true, true, "", "true", 2
+];
+this addAction [
+"Remove Medic",
+ {
+   player setUnitTrait ["Medic",false];
+   hintsilent "you are no longer a medic";
+   sleep 5;
+   hintSilent "";
+ },[], 1.5, true, true, "", "true", 2
+];
+this addAction [
+"Assign Engineer",
+ {
+   player setUnitTrait ["Engineer",true];
+   hintsilent "you are now an engineer";
+   sleep 5;
+   hintSilent "";
+ },[], 1.5, true, true, "", "true", 2
+];
+this addAction [
+"Remove Engineer",
+ {
+   player setUnitTrait ["Engineer",false];
+   hintsilent "you are no longer an engineer";
+   sleep 5;
+   hintSilent "";
+ },[], 1.5, true, true, "", "true", 2
+];
+this addAction [
+"Assign UAVHacker",
+ {
+   player setUnitTrait ["UAVHacker",true];
+   hintsilent "you are now a UAV hacker";
+   sleep 5;
+   hintSilent "";
+ },[], 1.5, true, true, "", "true", 2
+];
+this addAction [
+"Remove UAVHacker",
+ {
+   player setUnitTrait ["UAVHacker",false];
+   hintsilent "you are no longer a UAV hacker";
+   sleep 5;
+   hintSilent "";
+ },[], 1.5, true, true, "", "true", 2
+];
 
 
 -------
@@ -59,3 +114,47 @@ private _coords = [_uav] call fnc_getUAVCoordinates;
 hint format ["UAV Location: %1", _coords];
 sleep 5;
 hint "";
+
+
+-------
+
+[UnitName, true] call ACE_captives_fnc_setSurrendered;
+
+-------
+
+Heal Anyone Who Enters The Trigger_(ACE of course) Mentioned by @JᴏʏRɪᴅᴇ 
+
+{_x call ace_medical_treatment_fnc_fullHealLocal} foreach thislist ;
+
+-------
+
+Add ACE damage to a unit
+Paste in unit init
+Example: Will cause  50% stab damage to body 
+
+[this, 0.5, "body", "stab"] call ace_medical_fnc_addDamageToUnit
+
+
+* Arguments:
+ * 0: The Unit <OBJECT>
+ * 1: Damage to Add <NUMBER>
+ * 2: Body part ("Head", "Body", "LeftArm", "RightArm", "LeftLeg", "RightLeg") <STRING>
+ * 3: Projectile Type <STRING>
+ * 4: Source <OBJECT>
+ * 5: Non-directional damage source array (Optional) <ARRAY>
+ *
+ * Return Value:
+ * Successful <BOOL>
+ *
+ * Example:
+ * [player, 0.8, "rightleg", "bullet"] call ace_medical_fnc_addDamageToUnit
+ * [cursorTarget, 1, "body", "stab", player] call ace_medical_fnc_addDamageToUnit
+
+
+
+Extra explanation - Thanks to Esben
+https://github.com/acemod/ACE3/issues/2816#issuecomment-154545470 
+
+-------
+
+https://forums.bohemia.net/forums/topic/165560-ai-compilation-list-of-addonsmodsscripts-threads-for-arma-3/
