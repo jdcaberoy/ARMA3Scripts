@@ -12,6 +12,11 @@ Investigate the source of the attack
 
 Min Suggested Players: 4 
 
+
+Yang Wen-Li:
+
+For those of you who don't know, I am Yang Wen-Li, the governor of the western region of Altis. My constituents have concerns in putting more military troops from abroad and escalating this conflict. Hence, on behalf of the local government, PMCs cannot start or retaliate gun fights while within any civilian towns without explicit permission to do so from me. You do not shoot. You do not, as you say, "return fire" when shot. You get out and call the government. You are also forbidden to enter civilian towns with armed or weaponized vehicles. My people are already scared to go out of their homes. I don't want them to see a machine gun outside their door. Breaking these rules will be reported to a higher authority. And you foreigners on our soil will not want that right? So just follow these rules and we will have no problem. While we are in this war, we will need to work together so expect to hear more from me in the future. Best of Luck Gents. 
+
 #for cellphone left behind in checkpoint, give hint on where
 _this addAction ["Check Text Messages", { 
     hint "armed guys went past. double time"; 
