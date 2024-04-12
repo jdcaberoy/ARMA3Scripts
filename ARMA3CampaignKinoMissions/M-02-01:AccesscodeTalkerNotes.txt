@@ -1,0 +1,17 @@
+#for the pathfinding vehicle
+this addAction ["Ping UAV", { 
+    [falcon_01] call compile preprocessFileLineNumbers "BIS_fnc_getUAVCoordinates.sqf"; 
+}, nil, 1.5, true, true, "", "true"]; 
+
+#for BIS_getUAVCoordinates.sqf
+params ["_uav"];
+
+private _uavPos = getPos _uav;
+private _x = floor (_uavPos select 0);
+private _y = floor (_uavPos select 1);
+private _coords = format ["%1-%2", _x, _y];
+
+hint format ["UAV Location: %1", _coords];
+sleep 5;
+hint "";
+

@@ -18,6 +18,10 @@ S-1-01 = [M]ajor Op/ [S]ide Op/ [O]ptional Op - Act - misson code
         +SQF = TBF
         +OPORD = TBF
         +lines/script = TBF
+    +M-02-01: UAV retireval (Accesscode Talker)
+        +SQF = TBF
+        +OPORD = TBF
+        +lines/script = TBF
 
 +side missions (required side missions)
     +S-01-01 Patrol (Among Us)
@@ -36,7 +40,7 @@ S-1-01 = [M]ajor Op/ [S]ide Op/ [O]ptional Op - Act - misson code
         +SQF = TBF
         +OPORD = TBF
         +lines/script = ON-GOING
-    +S-02-01 Checkpoint (Gate Guardians)
+    +S-02-02 Escort (Flashing FIre)
         +SQF = TBF
         +OPORD = TBF
         +lines/script = ON-GOING
